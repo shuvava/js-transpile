@@ -2,17 +2,11 @@ module.exports = {
     "extends": [
         "airbnb-base"
     ],
-    "globals": {
-        "window": true,
-        "document": true
-    },
     "rules": {
-        // babel inserts `'use strict';` for us
-        "strict": "off",
-
         "import/no-extraneous-dependencies": "off",
         "import/no-unresolved": "off",
         "import/prefer-default-export": "off",
+        'import/extensions': ['error', 'never'],
 
         // this option sets a specific tab width for your code
         // https://github.com/eslint/eslint/blob/master/docs/rules/indent.md
@@ -39,12 +33,7 @@ module.exports = {
         // vetted on by the team (30 Aug 2016)
         "no-continue": "off"
    },
-   // "plugins": ["./.eslintrc-es5.js"], 
-    "environments": {
-        "es5": {
-			"parserOptions": {
-				"ecmaVersion": 5,
-			}
-		},
+    "env": {
+        "node": true,
 	},   
 }

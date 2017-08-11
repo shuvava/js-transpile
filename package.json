@@ -1,0 +1,50 @@
+{
+    "name": "js-transpiler",
+    "description": "makes online transpile es5 code to es6",
+    "homepage": "https://github.com/mrshuvava/js-transpiler",
+    "author": {
+        "name": "Vladimir Shurygin",
+        "url": "https://github.com/shuvava/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/shuvava/js-transpiler.git"
+    },
+    "bugs": {
+        "url": "https://github.com/shuvava/js-transpiler/issues"
+    },
+    "engines": {
+        "node": ">=7.0.0"
+    },
+    "keywords": [
+        "gulp",
+        "babel",
+        "es6",
+        "transpile"
+    ],
+    "license": "GPL-3.0",
+    "version": "0.0.1",
+    "dependencies": {
+        "eslint": "~4.4.1",
+        "eslint-config-airbnb-base": "~11.3.1",
+        "eslint-plugin-import": "^2.7.0",
+        "eslint-config-airbnb-es5": "~1.2.0",
+
+        "del": "^3.0.0",
+        "gulp": "^3.9.1",
+        "gulp-firstline-filter": "^0.0.1",
+        "gulp-util": "^3.0.8",
+        "gulp-watch": "^4.3.11", 
+        "gulp-logger": "0.0.2",
+        "babel-core": "^6.25.0",
+        "gulp-babel": "^7.0.0",
+        "babel-preset-env": "^1.6.0",
+        "babel-plugin-add-module-exports": "~0.2.1",
+        "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
+        "gulp-eslint": "^4.0.0",
+        "map-stream": "^0.0.7",
+
+
+        "lodash": "^4.7.0"
+    }
+}
