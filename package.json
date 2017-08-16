@@ -23,7 +23,7 @@
         "transpile"
     ],
     "license": "GPL-3.0",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependencies": {
         "eslint": "~4.4.1",
         "eslint-config-airbnb-base": "~11.3.1",
@@ -32,7 +32,7 @@
 
         "del": "^3.0.0",
         "gulp": "^3.9.1",
-        "gulp-firstline-filter": "^0.0.1",
+        "gulp-firstline-filter": "^0.0.2",
         "gulp-util": "^3.0.8",
         "gulp-watch": "^4.3.11", 
         "gulp-logger": "0.0.2",
