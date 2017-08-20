@@ -1,7 +1,4 @@
-const traspile = require('js-transpile');
+const gulp = require('gulp');
 
-traspile.run({
-    lint: {
-        failAfterError: false,
-    },
-});
+gulp.start('copy:libraries');
+gulp.start('build');

@@ -1,0 +1,7 @@
+{
+    "name": "example",
+    "dependencies": {},
+    "devDependencies": {
+        "js-transpiler": "^0.0.1"
+    }
+}

@@ -42,8 +42,8 @@
         "babel-plugin-add-module-exports": "~0.2.1",
         "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
         "gulp-eslint": "^4.0.0",
-        "map-stream": "^0.0.7",
-
+        "gulp-minify": "^1.0.0",
+        "main-bower-files": "^2.13.1",
 
         "lodash": "^4.7.0"
     }
